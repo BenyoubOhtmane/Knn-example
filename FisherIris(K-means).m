@@ -1,12 +1,12 @@
 k=5;
-xxnew=[5.3333 1.333 2.333 3.2223];
+xnew=[5.3333 1.333 2.333 3.2223];
 G=load("fisheriris.mat");
 X=G.meas;
 Y=G.species;
 
 for i=1: length(X)
     %Euclidean distance
-    d(i)=sqrt(sum((xxnew-X(i,:)).^2));
+    d(i)=sqrt(sum((xnew-X(i,:)).^2));
 end
 
 %order d
