@@ -1,3 +1,3 @@
-# K-clustering-example
+# K-nearest-neighbors-example
 
----> Using K-means clustering model (Theory) to predict plant species 
+---> Using knn model (Theory) to predict plant species 
